@@ -25,7 +25,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'DataSophon',
+  title: '算海深澜',
   tagline: '致力于快速实现部署、管理、监控以及自动化运维大数据云原生平台，帮助您快速构建起稳定、高效、可弹性伸缩的大数据云原生平台',
   url: 'https://datasophon.github.io',
   baseUrl: '/datasophon-website/',
@@ -35,8 +35,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'datasophon', // Usually your GitHub org/user name.
-  projectName: 'datasophon-website', // Usually your repo name.
+  organizationName: 'mindcrestocean', // Usually your GitHub org/user name.
+  projectName: 'mindcrestocean-website', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -114,10 +114,10 @@ const config = {
         respectPrefersColorScheme: false,
       },
       navbar: {
-        title: 'DataSophon',
+        title: '算海深澜',
         logo: {
-          alt: 'DataSophon Logo',
-          src: 'img/brand.png',
+          alt: '算海深澜',
+          src: 'img/brand11.png',
         },
         items: [
           {
@@ -128,27 +128,27 @@ const config = {
             activeBasePath: "docs/current"
           },
 
-          {
-            type: 'localeDropdown',
-            position: 'left',
-            dropdownItemsAfter: [
-              {
-                type: 'html',
-                value: '<hr style="margin: 0.3rem 0;">',
-              },
-              {
-                href: 'https://github.com/datasophon/datasophon-website/',
-                label: 'Help Us Translate',
-              },
-            ],
-          },
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'left',
+          //   dropdownItemsAfter: [
+          //     {
+          //       type: 'html',
+          //       value: '<hr style="margin: 0.3rem 0;">',
+          //     },
+          //     {
+          //       href: 'https://github.com/datasophon/datasophon-website/',
+          //       label: 'Help Us Translate',
+          //     },
+          //   ],
+          // },
         // {
         //   type: 'docsVersionDropdown',
         //   position: 'right',
         //   dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
         //   dropdownActiveClassDisabled: true,
         // },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/datasophon/datasophon',
             label: 'GitHub',

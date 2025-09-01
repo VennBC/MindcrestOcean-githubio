@@ -70,14 +70,14 @@ export default function () {
               <div className="mb-5 system_info pt-0">
                 <div className="project_title text-white mb-3">
                   <div className="d-flex align-items-start">
-                    <div className="animated-gradient-text_background animated-gradient-text_background-2" style={{ '--content': '"DataSophon"', '--start-color': '#FFF', '--end-color': '#00DFD8' }}>
-                      <span className="animated-gradient-text_foreground animated-gradient-text_foreground-2">DataSophon</span>
+                    <div className="animated-gradient-text_background animated-gradient-text_background-2" style={{ '--content': '"算海深澜"', '--start-color': '#FFF', '--end-color': '#00DFD8' }}>
+                      <span className="animated-gradient-text_foreground animated-gradient-text_foreground-2">算海深澜</span>
                     </div>
                   </div>
                 </div>
                 <p className="lead text-light slogan-desc">{dataSource.slogan.description}</p>
               </div>
-              <a className="btn datasophon-btn btn mt-20 ztop" href="https://github.com/datavane/datasophon"
+              {/* <a className="btn datasophon-btn btn mt-20 ztop" href="https://github.com/datavane/datasophon"
                 target="_blank">
                 <i className="lni-github-original"></i>&nbsp;GitHub
               </a>
@@ -92,7 +92,7 @@ export default function () {
                 <img src="https://img.shields.io/github/stars/datavane/datasophon.svg?sanitize=true" className="wow fadeInUp"></img>
                 <img src="https://img.shields.io/github/forks/datavane/datasophon?sanitize=true" className="wow fadeInUp"></img>
                 <img src="https://img.shields.io/github/languages/count/datavane/datasophon" className="wow fadeInUp"></img>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* hero image */}

@@ -1,11 +1,11 @@
 {
   "zh-Hans": {
     "common": {
-      "getStart": "快速开始",
+      "getStart": "用户手册",
       "architecture": "系统架构",
       "learnMore": "了解更多",
       "coreFeatures": "核心特性",
-      "coreFeaturesDesc": "让您的大数据组件管理运维变得简单高效的核心特性",
+      "coreFeaturesDesc": "让您的大模型训练变得简单高效的核心特性",
       "development": "开发脚手架",
       "honor": "我们的荣誉",
       "ourUsers": "Our Users",
@@ -18,8 +18,8 @@
       "changeLog": "详细变更"
     },
     "slogan": {
-      "key": "",
-      "description": "新一代云原生大数据管家，致力于帮助用户快速构建起稳定、高效、可弹性伸缩的大数据云原生平台"
+      "key": "算海深澜",
+      "description": "算海深澜是一款基于国产GPU的大模型训练工具，致力于提升大模型训练的效率与性能，推动国产GPU技术在人工智能领域的广泛应用"
     },
     "feature": [
       {
